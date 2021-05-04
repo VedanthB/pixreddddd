@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #57C4D8;
+    align-items: center;
+    position: sticky;
+}
+
+.header__left {
+   align-items: center;
+   display: flex;
+}
+
+.header__icon {
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+.header__left > h4 {
+    margin-left: 10px;
+    color: white
+}
+
+.header__right {
+    align-items: center;
+    display: flex;
+}
+
+.header__right > h4 {
+    padding: 8px;
+    color: white;
+    border: white solid 1px ;
+}
+
+.header__right > h3 {
+    margin: 10px;
+}
